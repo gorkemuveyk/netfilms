@@ -1,7 +1,9 @@
+import Header from "@/app/components/header";
+import Tabs from "@/app/components/tabs";
 import "./globals.css";
 
 export const metadata = {
-  title: "Netfilms - Watch Movie",
+  title: "NetFilms - Watch Movie",
   icons: {
     icon: "/img/favicon.png",
   },
@@ -10,7 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Tabs />
+        {children}
+      </body>
     </html>
   );
 }

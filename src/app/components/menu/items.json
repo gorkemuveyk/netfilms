@@ -1,0 +1,10 @@
+[
+  {
+    "name": "About",
+    "url": "/about"
+  },
+  {
+    "name": "Sign In",
+    "url": "/login"
+  }
+]

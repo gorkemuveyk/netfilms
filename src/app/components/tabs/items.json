@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Populer",
+    "url": "/populer"
+  },
+  {
+    "name": "Latest",
+    "url": "/latest"
+  },
+  {
+    "name": "Coming Soon",
+    "url": "/coming-soon"
+  }
+]
