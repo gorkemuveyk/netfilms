@@ -9,10 +9,10 @@ const index = () => {
   const genre = searchParams.get("genre");
 
   return (
-    <div className="p-5 m-3 bg-gray-100 flex items-center justify-center gap-7">
+    <div className="p-5 m-3 bg-gray-100 dark:bg-black dark:text-white flex items-center justify-center gap-7 text-sm sm:text-[16px]">
       {tabs.map((tab, index) => (
         <Link
-          className={`cursor-pointer transition-all hover:opacity-75  ${
+          className={`cursor-pointer transition-all ${
             tab.url === genre
               ? "underline underline-offset-8 text-amber-600"
               : ""

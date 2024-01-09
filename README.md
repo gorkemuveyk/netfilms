@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NetFilms
 
-## Getting Started
+List daily, popular and upcoming movies using [The Movie DB](https://www.themoviedb.org/). database and view details with NetFilms
 
-First, run the development server:
+## [Live Demo](https://netfilms.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Preview
+
+<div align="center">
+  <img src="public/img/result/mobile.png" alt="Resim 1" width="30%">
+  <img src="public/img/result/tablet.png" alt="Resim 2" width="50%">
+  <img src="public/img/result/laptop.png" alt="Resim 3" width="80%">
+</div>
+
+## API KEY
+
+In the config.js file in the app folder, you need to specify the api key you got from themoviedb.
+
+```javascript
+const API_KEY = "YOUR_API_KEY";
+module.exports = API_KEY;
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### Clone
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+git clone https://github.com/gorkemuveyk/netfilms.git
+```
 
-## Learn More
+#### Package Installation
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm i
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run dev
+```

@@ -1,14 +1,14 @@
 [
   {
     "name": "Populer",
-    "url": "/populer"
+    "url": "popular"
   },
   {
-    "name": "Latest",
-    "url": "/latest"
+    "name": "Top Rated",
+    "url": "top_rated"
   },
   {
     "name": "Coming Soon",
-    "url": "/coming-soon"
+    "url": "upcoming"
   }
 ]
