@@ -2,8 +2,6 @@
 
 List daily, popular and upcoming movies using [The Movie DB](https://www.themoviedb.org/). database and view details with NetFilms
 
-## [Live Demo](https://netfilms.vercel.app/)
-
 ## Preview
 
 <div align="center">
